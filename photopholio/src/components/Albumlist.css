@@ -1,0 +1,62 @@
+.albumList{
+
+    display: flex;
+    gap:10px;
+    -ms-flex-align: start;
+    display:flex;
+    flex-direction: column;
+}
+
+.addAlbum{
+    padding:10px;
+    margin: auto;
+    width:auto;
+    height:40px;
+    border-radius: 0.5rem;
+    border:2px solid blue;
+    background-color: rgb(226, 226, 235);
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+    font-size: larger;
+    color:blue;
+    text-align: center;
+}
+
+
+.albumlistInner1{
+    width:80%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    margin-left:400px;
+    justify-content: space-between;
+    margin-top: 30px;
+    /* margin: auto; */
+
+}
+
+.albumlistInner2{
+    width:90%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+    flex-wrap: wrap;
+    margin:auto
+}
+
+.cancel{
+    padding:10px;
+    margin: auto;
+    width:auto;
+    height:40px;
+    border-radius: 0.5rem;
+    border:2px solid rgb(255, 0, 0);
+    background-color: rgb(241, 215, 215);
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+    font-size: larger;
+    color:red;
+    text-align: center;
+}

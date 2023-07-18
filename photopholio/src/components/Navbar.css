@@ -1,0 +1,34 @@
+.navbar{
+    height:70px;
+    width: 100%;
+    background-color: rgb(132, 141, 241);
+    text-align: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.navimg{
+display:flex;
+-ms-flex-align: start;
+margin-left: 10px;
+width:55px;
+height:55px;
+position:relative;
+top: 8px;
+left:20px;
+border-radius: 1rem;
+
+}
+
+.navinnerdiv{
+    width:230px;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+}
+
+.navinnerdiv h3{
+    color: black;
+}
+
